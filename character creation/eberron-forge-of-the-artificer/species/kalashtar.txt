@@ -1,0 +1,15 @@
+KALASHTAR                      
+
+Creature Type: Aberration
+Size: Medium (about 6–7 feet tall)
+Speed: 30 feet
+
+Dual Mind. You have Advantage on Wisdom and Charisma saving throws.
+
+Mental Discipline. You have Resistance to Psychic damage.
+
+Mind Link. You have telepathy with a range in feet equal to 10 times your level. When you’re using this trait to speak telepathically to a creature, you can take a Magic action to give that creature the ability to speak telepathically with you for 1 hour or until you take another Magic action to end this effect.
+
+Severed from Dreams. You can’t be the target of the Dream spell. In addition, when you finish a Long Rest, you gain proficiency in one skill of your choice. This proficiency lasts until you finish another Long Rest.
+
+

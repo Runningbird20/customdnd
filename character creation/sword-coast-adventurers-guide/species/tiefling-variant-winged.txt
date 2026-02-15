@@ -1,0 +1,24 @@
+TIEFLING (VARIANT; WINGED)                        
+
+Ability Scores: Intelligence +1; Choose Dexterity or Charisma +2
+Creature Type: Humanoid
+Size: Medium
+Speed: 30 feet, Fly 30 feet
+
+Age. Tieflings mature at the same rate as humans but live a few years longer.
+
+Size. Tieflings are about the same size and build as humans. Your size is Medium.
+
+Darkvision. Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+Hellish Resistance. You have resistance to fire damage.
+
+Winged. You have bat-like wings sprouting from your shoulder blades. You have a flying speed of 30 feet while you aren’t wearing heavy armor.
+
+Languages. You can speak, read, and write Common and Infernal.
+
+Random Height and Weight
+Base Height: 4'9"
+Base Weight: 110 lb.
+Height Modifier: +2d8
+Weight Modifier: × (2d4) lb.

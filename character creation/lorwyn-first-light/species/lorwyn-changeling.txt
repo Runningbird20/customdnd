@@ -1,0 +1,14 @@
+LORWYN CHANGELING                     
+
+Creature Type: Fey
+Size: Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species
+Speed: 30 feet
+
+Shape Self. As an action, you can reshape your body to a two-legged Humanoid shape or to a four-legged Beast shape. While you have a Humanoid shape, you can wear clothing and armor made for a Humanoid of your size.
+
+Darkvision. You have Darkvision with a range of 120 feet.
+
+Delightful Imitator. You have proficiency in the Performance skill.
+
+Unpredictable Movement. When you roll Initiative and don’t have Disadvantage on that roll, you can take the Dash action as a Reaction.
+
