@@ -1,0 +1,20 @@
+{
+  "campaigns": [
+    {
+      "id": "72a389fb-b376-48ab-b572-b2dbf420c6f9",
+      "name": "Test",
+      "ownerUserId": "c3d4ae8a-8cfb-45b2-a5f7-a3e0c86074e3",
+      "createdAt": "2026-02-15T02:52:45.163Z"
+    }
+  ],
+  "members": [
+    {
+      "campaignId": "72a389fb-b376-48ab-b572-b2dbf420c6f9",
+      "userId": "c3d4ae8a-8cfb-45b2-a5f7-a3e0c86074e3",
+      "role": "owner",
+      "joinedAt": "2026-02-15T02:52:45.163Z"
+    }
+  ],
+  "inviteLinks": [],
+  "emailInvites": []
+}
