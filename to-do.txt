@@ -1,0 +1,10 @@
+Finish Character Species:
+go back and add info on each species
+
+Finish Character Class:
+path: customdnd/character creation/players-handbook-2024
+files to be updated: rogue.txt, sorcerer.txt, warlock.txt, wizard.txt
+go back and add info on each class
+
+Finish Character Backdrounds:
+go back and add info on each background
