@@ -1,0 +1,782 @@
+FIGHTER CLASS FEATURES - D&D
+
+================================================================================
+LEVEL 1: FIGHTING STYLE
+================================================================================
+PHB'24 p91
+
+You have honed your martial prowess and gain a Fighting Style feat of your choice. Defense is recommended.
+
+Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
+
+================================================================================
+LEVEL 1: SECOND WIND
+================================================================================
+PHB'24 p91
+
+You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.
+
+You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
+
+When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.
+
+================================================================================
+LEVEL 1: WEAPON MASTERY
+================================================================================
+PHB'24 p91
+
+Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
+
+When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.
+
+================================================================================
+LEVEL 2: ACTION SURGE
+================================================================================
+PHB'24 p91
+
+You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.
+
+Once you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.
+
+================================================================================
+LEVEL 2: TACTICAL MIND
+================================================================================
+PHB'24 p91
+
+You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.
+
+================================================================================
+LEVEL 3: FIGHTER SUBCLASS
+================================================================================
+PHB'24 p92
+
+You gain a Fighter subclass of your choice. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.
+
+================================================================================
+ARCANE ARCHER
+================================================================================
+XGE p28
+
+An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements.
+
+--- Arcane Archer Lore (Level 3) ---
+XGE p28
+
+At 3rd level, you learn magical theory or some of the secrets of nature—typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the prestidigitation or the druidcraft cantrip.
+
+--- Arcane Shot (Level 3) ---
+XGE p28
+
+At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice.
+
+Once per turn when you fire an arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.
+
+You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.
+
+ARCANE SHOT SAVE DC = 8 + Intelligence modifier + Proficiency Bonus
+
+ARCANE SHOT OPTIONS:
+
+BANISHING ARROW: You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must also succeed on a Charisma saving throw or be banished. While banished in this way, the target's speed is 0, and it is incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied. After you reach 18th level, a target also takes 2d6 force damage when the arrow hits it.
+
+BEGUILING ARROW: The creature hit by the arrow takes an extra 2d6 psychic damage, and choose one of your allies within 30 feet of the target. The target must succeed on a Wisdom saving throw, or it is charmed by the chosen ally until the start of your next turn. The psychic damage increases to 4d6 when you reach 18th level.
+
+BURSTING ARROW: The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take 2d6 force damage each. The force damage increases to 4d6 when you reach 18th level.
+
+ENFEEBLING ARROW: The creature hit by the arrow takes an extra 2d6 necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn. The necrotic damage increases to 4d6 when you reach 18th level.
+
+GRASPING ARROW: The creature hit by the arrow takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again. The poison damage and slashing damage both increase to 4d6 when you reach 18th level.
+
+PIERCING ARROW: You don't make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage. The piercing damage increases to 2d6 when you reach 18th level.
+
+SEEKING ARROW: You don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. On a failed save, the target takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target's current location. On a successful save, the target takes half as much damage, and you don't learn its location. The force damage increases to 2d6 when you reach 18th level.
+
+SHADOW ARROW: The creature hit by the arrow takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn. The psychic damage increases to 4d6 when you reach 18th level.
+
+--- Magic Arrow (Level 7) ---
+XGE p28
+
+At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target.
+
+--- Curving Shot (Level 7) ---
+XGE p28
+
+At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.
+
+--- Ever-Ready Shot (Level 15) ---
+XGE p28
+
+Starting at 15th level, your magical archery is available whenever battle starts. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it.
+
+================================================================================
+BANNERET
+================================================================================
+FRHoF p19
+
+Bannerets are paragons of valor and leadership who protect the innocent and rally fellow adventurers to the causes of justice and freedom. Many are knights serving in various lands across the realms. They wander as knights errant, taking the fight against evil beyond their kingdom's borders.
+
+--- Knightly Envoy (Level 3) ---
+FRHoF p19
+
+You know how to conduct yourself with grace as a noble ambassador. You gain the following benefits.
+
+COMPREHENSION: You can cast the Comprehend Languages spell but only as a Ritual. Charisma is your spellcasting ability for it.
+
+POLYGLOT: You learn one language from the language tables. When you finish a Long Rest, you can replace a language learned from this benefit with another language you have heard, seen signed, or read in the past 24 hours.
+
+WELL SPOKEN: You gain proficiency in one of the following skills of your choice: Insight, Intimidation, Persuasion, or Performance.
+
+--- Group Recovery (Level 3) ---
+FRHoF p19
+
+When you use your Second Wind to regain Hit Points, you can choose a number of allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies regains Hit Points equal to 1d4 plus your Fighter level. Once you use this ability, you can't use it again until you finish a Short or Long Rest.
+
+--- Team Tactics (Level 7) ---
+FRHoF p19
+
+When you use Group Recovery, each chosen ally has Advantage on D20 Tests until the start of your next turn.
+
+--- Rallying Surge (Level 10) ---
+FRHoF p19
+
+When you use your Action Surge, you can choose allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies can immediately take a Reaction to use one of the following options.
+
+ATTACK: The ally makes one attack with a weapon or an Unarmed Strike.
+
+MOVE: The ally moves up to half its Speed without provoking an Opportunity Attack.
+
+--- Shared Resilience (Level 15) ---
+FRHoF p20
+
+When an ally you can see within 60 feet of yourself fails a saving throw, you can take a Reaction to expend a use of your Indomitable feature. The ally can immediately reroll the saving throw with a bonus equal to your Fighter level; the ally must use the new roll.
+
+--- Inspiring Commander (Level 18) ---
+FRHoF p20
+
+You gain the following benefits.
+
+BOLSTERED RALLY: The area of effect for both Group Recovery and Rallying Surge is now a 60-foot Emanation.
+
+UNSHAKABLE BRAVERY: You have Immunity to the Charmed and Frightened conditions.
+
+================================================================================
+BATTLE MASTER
+================================================================================
+PHB'24 p93
+
+Battle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.
+
+--- Combat Superiority (Level 3) ---
+PHB'24 p93
+
+Your experience on the battlefield has refined your fighting techniques. You learn maneuvers that are fueled by special dice called Superiority Dice.
+
+MANEUVERS: You learn three maneuvers of your choice. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
+
+You learn two additional maneuvers of your choice when you reach Fighter levels 7, 10, and 15. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
+
+SUPERIORITY DICE: You have four Superiority Dice, which are d8s. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a Short or Long Rest.
+
+You gain an additional Superiority Die when you reach Fighter levels 7 (five dice total) and 15 (six dice total).
+
+SAVING THROWS: If a maneuver requires a saving throw, the DC equals 8 plus your Strength or Dexterity modifier (your choice) and Proficiency Bonus.
+
+--- Student of War (Level 3) ---
+PHB'24 p94
+
+You gain proficiency with one type of Artisan's Tools of your choice, and you gain proficiency in one skill of your choice from the skills available to Fighters at level 1.
+
+--- Maneuver Options (Level 3) ---
+PHB'24 p94
+
+AMBUSH: When you make a Dexterity (Stealth) check or an Initiative roll, you can expend one Superiority Die and add the die to the roll.
+
+BAIT AND SWITCH: When you're within 5 feet of a creature on your turn, you can expend one Superiority Die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing. Roll the Superiority Die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.
+
+COMMANDER'S STRIKE: When you take the Attack action, you can replace one of your attacks to direct a companion to strike. Choose a willing creature who can see or hear you and expend one Superiority Die. That creature can immediately use its Reaction to make one attack, adding the Superiority Die to the attack's damage roll on a hit.
+
+COMMANDING PRESENCE: When you make a Charisma (Intimidation, Performance, or Persuasion) check, you can expend one Superiority Die and add that die to the roll.
+
+DISARMING ATTACK: When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to disarm the target. Add the die to the attack's damage. The target must succeed on a Strength saving throw or drop one object of your choice that it's holding.
+
+DISTRACTING STRIKE: When you hit a creature with an attack roll, you can expend one Superiority Die to distract the target. Add the die to the attack's damage. The next attack roll against the target by an attacker other than you has Advantage if made before the start of your next turn.
+
+EVASIVE FOOTWORK: As a Bonus Action, you can expend one Superiority Die and take the Disengage action. Roll the die and add the number to your AC until the start of your next turn.
+
+FEINTING ATTACK: As a Bonus Action, you can expend one Superiority Die to feint, choosing one creature within 5 feet of yourself. You have Advantage on your next attack roll against that target this turn. If that attack hits, add the Superiority Die to the attack's damage.
+
+GOADING ATTACK: When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target. Add the die to the attack's damage. The target must succeed on a Wisdom saving throw or have Disadvantage on attack rolls against targets other than you until the end of your next turn.
+
+LUNGING ATTACK: As a Bonus Action, you can expend one Superiority Die and take the Dash action. If you move at least 5 feet in a straight line immediately before hitting with a melee attack as part of the Attack action on this turn, you can add the die to the attack's damage.
+
+MANEUVERING ATTACK: When you hit a creature with an attack roll, you can expend one Superiority Die to maneuver a comrade. Add the die to the attack's damage, and choose a willing creature who can see or hear you. That creature can use its Reaction to move up to half its Speed without provoking an Opportunity Attack from the target.
+
+MENACING ATTACK: When you hit a creature with an attack roll, you can expend one Superiority Die to frighten the target. Add the die to the attack's damage. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn.
+
+PARRY: When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number rolled plus your Strength or Dexterity modifier.
+
+PRECISION ATTACK: When you miss with an attack roll, you can expend one Superiority Die, roll it, and add it to the attack roll, potentially causing the attack to hit.
+
+PUSHING ATTACK: When you hit a creature with an attack roll, you can expend one Superiority Die to drive the target back. Add the die to the attack's damage. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you.
+
+RALLY: As a Bonus Action, you can expend one Superiority Die to bolster a companion's resolve. Choose an ally within 30 feet who can see or hear you. That ally gains Temporary Hit Points equal to the die roll plus half your Fighter level (round down).
+
+RIPOSTE: When a creature misses you with a melee attack roll, you can take a Reaction and expend one Superiority Die to make a melee attack against the creature. If you hit, add the die to the attack's damage.
+
+SWEEPING ATTACK: When you hit a creature with a melee attack roll, you can expend one Superiority Die to damage another creature. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number rolled on the die.
+
+TACTICAL ASSESSMENT: When you make an Intelligence (History or Investigation) check or a Wisdom (Insight) check, you can expend one Superiority Die and add it to the ability check.
+
+TRIP ATTACK: When you hit a creature with an attack roll, you can expend one Superiority Die and add the die to the attack's damage. If the target is Large or smaller, it must succeed on a Strength saving throw or have the Prone condition.
+
+--- Know Your Enemy (Level 7) ---
+PHB'24 p94
+
+As a Bonus Action, you can discern certain strengths and weaknesses of a creature you can see within 30 feet of yourself; you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.
+
+Once you use this feature, you can't do so again until you finish a Long Rest. You can also restore a use by expending one Superiority Die (no action required).
+
+--- Improved Combat Superiority (Level 10) ---
+PHB'24 p94
+
+Your Superiority Die becomes a d10.
+
+--- Relentless (Level 15) ---
+PHB'24 p94
+
+Once per turn, when you use a maneuver, you can roll 1d8 and use the number rolled instead of expending a Superiority Die.
+
+--- Ultimate Combat Superiority (Level 18) ---
+PHB'24 p94
+
+Your Superiority Die becomes a d12.
+
+================================================================================
+CAVALIER
+================================================================================
+XGE p30
+
+The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner.
+
+--- Bonus Proficiency (Level 3) ---
+XGE p30
+
+When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice.
+
+--- Born to the Saddle (Level 3) ---
+XGE p30
+
+Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not incapacitated.
+
+Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.
+
+--- Unwavering Mark (Level 3) ---
+XGE p30
+
+Starting at 3rd level, you can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a melee weapon attack, you can mark the creature until the end of your next turn.
+
+While it is within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn't target you.
+
+In addition, if a creature marked by you deals damage to anyone other than you, you can make a special melee weapon attack against the marked creature as a bonus action on your next turn. You have advantage on the attack roll, and if it hits, the attack's weapon deals extra damage equal to half your fighter level.
+
+You can make this special attack a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+--- Warding Maneuver (Level 7) ---
+XGE p30
+
+At 7th level, you learn to fend off strikes. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll 1d8 as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.
+
+You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+--- Hold the Line (Level 10) ---
+XGE p30
+
+At 10th level, you become a master of locking down your enemies. Creatures provoke an opportunity attack from you when they move 5 feet or more while within your reach, and if you hit a creature with an opportunity attack, the target's speed is reduced to 0 until the end of the current turn.
+
+--- Ferocious Charger (Level 15) ---
+XGE p30
+
+Starting at 15th level, you can run down your foes. If you move at least 10 feet in a straight line right before attacking a creature and you hit it with the attack, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. You can use this feature only once on each of your turns.
+
+--- Vigilant Defender (Level 18) ---
+XGE p30
+
+Starting at 18th level, you respond to danger with extraordinary vigilance. In combat, you get a special reaction that you can take once on every creature's turn, except your turn. You can use this special reaction only to make an opportunity attack, and you can't use it on the same turn that you take your normal reaction.
+
+================================================================================
+CHAMPION
+================================================================================
+PHB'24 p96
+
+A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory.
+
+--- Improved Critical (Level 3) ---
+PHB'24 p96
+
+Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.
+
+--- Remarkable Athlete (Level 3) ---
+PHB'24 p96
+
+Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.
+
+In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.
+
+--- Additional Fighting Style (Level 7) ---
+PHB'24 p96
+
+You gain another Fighting Style feat of your choice.
+
+--- Heroic Warrior (Level 10) ---
+PHB'24 p96
+
+The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.
+
+--- Superior Critical (Level 15) ---
+PHB'24 p96
+
+Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.
+
+--- Survivor (Level 18) ---
+PHB'24 p96
+
+You attain the pinnacle of resilience in battle, giving you these benefits.
+
+DEFY DEATH: You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.
+
+HEROIC RALLY: At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.
+
+================================================================================
+ECHO KNIGHT
+================================================================================
+EGW p183
+
+A mysterious and feared frontline warrior, the Echo Knight has mastered the art of using dunamis to summon the fading shades of unrealized timelines to aid them in battle.
+
+--- Manifest Echo (Level 3) ---
+EGW p183
+
+You can use a bonus action to magically manifest an echo of yourself in an unoccupied space you can see within 15 feet of you. This echo is a magical, translucent, gray image of you that lasts until it is destroyed, until you dismiss it as a bonus action, until you manifest another echo, or until you're incapacitated.
+
+Your echo has AC 14 + your proficiency bonus, 1 hit point, and immunity to all conditions. It is the same size as you, and it occupies its space. On your turn, you can mentally command the echo to move up to 30 feet in any direction (no action required). If your echo is ever more than 30 feet from you at the end of your turn, it is destroyed.
+
+You can use the echo in the following ways:
+- As a bonus action, you can teleport, magically swapping places with your echo at a cost of 15 feet of your movement.
+- When you take the Attack action, any attack can originate from your space or the echo's space.
+- When a creature within 5 feet of your echo moves at least 5 feet away from it, you can use your reaction to make an opportunity attack against that creature as if you were in the echo's space.
+
+--- Unleash Incarnation (Level 3) ---
+EGW p183
+
+You can heighten your echo's fury. Whenever you take the Attack action, you can make one additional melee attack from the echo's position.
+
+You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a long rest.
+
+--- Echo Avatar (Level 7) ---
+EGW p183
+
+You can temporarily transfer your consciousness to your echo. As an action, you can see through your echo's eyes and hear through its ears. During this time, you are deafened and blinded. You can sustain this effect for up to 10 minutes. While your echo is being used in this way, it can be up to 1,000 feet away from you without being destroyed.
+
+--- Shadow Martyr (Level 10) ---
+EGW p183
+
+You can make your echo throw itself in front of an attack directed at another creature. Before the attack roll is made, you can use your reaction to teleport the echo to an unoccupied space within 5 feet of the targeted creature. The attack roll is instead made against your echo.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+--- Reclaim Potential (Level 15) ---
+EGW p183
+
+You've learned to absorb the fleeting magic of your echo. When an echo of yours is destroyed by taking damage, you can gain a number of temporary hit points equal to 2d6 + your Constitution modifier, provided you don't already have temporary hit points.
+
+You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a long rest.
+
+--- Legion of One (Level 18) ---
+EGW p183
+
+You can use a bonus action to create two echoes with your Manifest Echo feature, and these echoes can coexist. If you try to create a third echo, the previous two echoes are destroyed. Anything you can do from one echo's position can be done from the other's instead.
+
+In addition, when you roll initiative and have no uses of your Unleash Incarnation feature left, you regain one use of that feature.
+
+================================================================================
+ELDRITCH KNIGHT
+================================================================================
+PHB'24 p96
+
+Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection and allowing them to engage many foes at once with explosive magic.
+
+--- Spellcasting (Level 3) ---
+PHB'24 p96
+
+You have learned to cast spells. See chapter 7 for the rules on spellcasting.
+
+CANTRIPS: You know two cantrips of your choice from the Wizard spell list. Ray of Frost and Shocking Grasp are recommended. Whenever you gain a Fighter level, you can replace one of these cantrips with another from the Wizard spell list.
+
+When you reach Fighter level 10, you learn another Wizard cantrip.
+
+SPELL SLOTS: The Eldritch Knight Spellcasting table shows how many spell slots you have. You regain all expended slots when you finish a Long Rest.
+
+PREPARED SPELLS OF LEVEL 1+: You prepare the list of level 1+ spells available for you to cast. To start, choose three level 1 spells from the Wizard spell list. Burning Hands, Jump, and Shield are recommended.
+
+The number of spells on your list increases as you gain Fighter levels. Whenever that number increases, choose additional spells from the Wizard spell list until the number matches the table. The chosen spells must be of a level for which you have spell slots.
+
+CHANGING YOUR PREPARED SPELLS: Whenever you gain a Fighter level, you can replace one spell on your list with another Wizard spell for which you have spell slots.
+
+SPELLCASTING ABILITY: Intelligence is your spellcasting ability for your Wizard spells.
+
+SPELLCASTING FOCUS: You can use an Arcane Focus as a Spellcasting Focus for your Wizard spells.
+
+--- War Bond (Level 3) ---
+PHB'24 p98
+
+You learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over 1 hour, which can be done during a Short Rest. Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.
+
+You can have up to two bonded weapons, but you can summon only one at a time with a Bonus Action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.
+
+--- War Magic (Level 7) ---
+PHB'24 p98
+
+When you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your Wizard cantrips that has a casting time of an action.
+
+--- Eldritch Strike (Level 10) ---
+PHB'24 p98
+
+You learn how to make your weapon strikes undercut a creature's ability to withstand your spells. When you hit a creature with an attack using a weapon, that creature has Disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.
+
+--- Arcane Charge (Level 15) ---
+PHB'24 p98
+
+When you use your Action Surge, you can teleport up to 30 feet to an unoccupied space you can see. You can teleport before or after the additional action.
+
+--- Improved War Magic (Level 18) ---
+PHB'24 p98
+
+When you take the Attack action on your turn, you can replace two of the attacks with a casting of one of your level 1 or level 2 Wizard spells that has a casting time of an action.
+
+================================================================================
+PSI WARRIOR
+================================================================================
+PHB'24 p98
+
+Psi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.
+
+--- Psionic Power (Level 3) ---
+PHB'24 p98
+
+You harbor a wellspring of psionic energy within yourself. It is represented by your Psionic Energy Dice, which fuel powers you have from this subclass.
+
+PSI WARRIOR ENERGY DICE
+Fighter Level | Die Size | Number
+3             | D6       | 4
+5             | D8       | 6
+9             | D8       | 8
+11            | D10      | 8
+13            | D10      | 10
+17            | D12      | 12
+
+You regain one expended Psionic Energy Die when you finish a Short Rest, and you regain all of them when you finish a Long Rest.
+
+PROTECTIVE FIELD: When you or another creature you can see within 30 feet of you takes damage, you can take a Reaction to expend one Psionic Energy Die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1).
+
+PSIONIC STRIKE: Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage with a weapon, you can expend one Psionic Energy Die, rolling it and dealing Force damage to the target equal to the number rolled plus your Intelligence modifier.
+
+TELEKINETIC MOVEMENT: You can move an object or a creature with your mind. As a Magic action, choose one target you can see within 30 feet of yourself; the target must be a loose object that is Large or smaller or one willing creature other than you. You transport the target up to 30 feet to an unoccupied space you can see. Alternatively, if the target is a Tiny object, you can transport it to or from your hand.
+
+Once you take this action, you can't do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.
+
+--- Telekinetic Adept (Level 7) ---
+PHB'24 p99
+
+You have mastered new ways to use your telekinetic abilities.
+
+PSI-POWERED LEAP: As a Bonus Action, you gain a Fly Speed equal to twice your Speed until the end of the current turn. Once you take this Bonus Action, you can't do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.
+
+TELEKINETIC THRUST: When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw (DC 8 + your Intelligence modifier + Proficiency Bonus). On a failed save, you can give the target the Prone condition or transport it up to 10 feet horizontally.
+
+--- Guarded Mind (Level 10) ---
+PHB'24 p99
+
+You have Resistance to Psychic damage. Moreover, if you start your turn with the Charmed or Frightened condition, you can expend a Psionic Energy Die (no action required) and end every effect on yourself giving you those conditions.
+
+--- Bulwark of Force (Level 15) ---
+PHB'24 p99
+
+You can shield yourself and others with telekinetic force. As a Bonus Action, you can choose creatures, including yourself, within 30 feet of yourself, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures has Half Cover for 1 minute or until you have the Incapacitated condition.
+
+Once you use this feature, you can't do so again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.
+
+--- Telekinetic Master (Level 18) ---
+PHB'24 p99
+
+You always have the Telekinesis spell prepared. With this feature, you can cast it without a spell slot or components, and your spellcasting ability for it is Intelligence. On each of your turns while you maintain Concentration on it, including the turn when you cast it, you can make one attack with a weapon as a Bonus Action.
+
+Once you cast the spell with this feature, you can't do so again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.
+
+================================================================================
+RUNE KNIGHT
+================================================================================
+TCE p44
+
+Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants.
+
+--- Bonus Proficiencies (Level 3) ---
+TCE p44
+
+You gain proficiency with smith's tools, and you learn to speak, read, and write Giant.
+
+--- Rune Carver (Level 3) ---
+TCE p44
+
+You can use magic runes to enhance your gear. You learn two runes of your choice. Each time you gain a level in this class, you can replace one rune you know with a different one.
+
+Whenever you finish a long rest, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each. To be eligible, an object must be a weapon, suit of armor, shield, piece of jewelry, or something else you can wear or hold. Your rune remains on an object until you finish a long rest, and an object can bear only one of your runes at a time.
+
+RUNES KNOWN
+Fighter Level | Number of Runes
+3rd           | 2
+7th           | 3
+10th          | 4
+15th          | 5
+
+RUNE MAGIC SAVE DC = 8 + your proficiency bonus + your Constitution modifier
+
+AVAILABLE RUNES:
+
+CLOUD RUNE: While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks. When you or a creature within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and choose a different creature within 30 feet, other than the attacker, to become the target. Once you invoke this rune, you can't do so again until you finish a short or long rest.
+
+FIRE RUNE: While wearing or carrying this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool. When you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target takes an extra 2d6 fire damage and must succeed on a Strength saving throw or be restrained for 1 minute. While restrained, the target takes 2d6 fire damage at the start of each of its turns. Once you invoke this rune, you can't do so again until you finish a short or long rest.
+
+FROST RUNE: While wearing or carrying this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks. You can invoke the rune as a bonus action to increase your sturdiness. For 10 minutes, you gain a +2 bonus to all ability checks and saving throws that use Strength or Constitution. Once you invoke this rune, you can't do so again until you finish a short or long rest.
+
+HILL RUNE (7TH LEVEL OR HIGHER): While wearing or carrying this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage. You can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke this rune, you can't do so again until you finish a short or long rest.
+
+STONE RUNE: While wearing or carrying this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to 120 feet. When a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute, has a speed of 0 and is incapacitated. Once you invoke this rune, you can't do so again until you finish a short or long rest.
+
+STORM RUNE (7TH LEVEL OR HIGHER): While wearing or carrying this rune, you have advantage on Intelligence (Arcana) checks, and you can't be surprised. You can invoke the rune as a bonus action to enter a prophetic state for 1 minute. Until the state ends, when you or another creature you can see within 60 feet makes an attack roll, saving throw, or ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke this rune, you can't do so again until you finish a short or long rest.
+
+--- Giant's Might (Level 3) ---
+TCE p44
+
+As a bonus action, you magically gain the following benefits for 1 minute:
+- If you are smaller than Large, you become Large, along with anything you are wearing.
+- You have advantage on Strength checks and Strength saving throws.
+- Once on each of your turns, one of your attacks with a weapon or unarmed strike can deal an extra 1d6 damage to a target on a hit.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+--- Runic Shield (Level 7) ---
+TCE p44
+
+When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to force the attacker to reroll the d20 and use the new roll.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+--- Great Stature (Level 10) ---
+TCE p44
+
+The magic of your runes permanently alters you. When you gain this feature, roll 3d4. You grow a number of inches in height equal to the roll.
+
+Moreover, the extra damage you deal with your Giant's Might feature increases to 1d8.
+
+--- Master of Runes (Level 15) ---
+TCE p44
+
+You can invoke each rune you know from your Rune Carver feature twice, rather than once, and you regain all expended uses when you finish a short or long rest.
+
+--- Runic Juggernaut (Level 18) ---
+TCE p44
+
+The extra damage you deal with the Giant's Might feature increases to 1d10. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet.
+
+================================================================================
+SAMURAI
+================================================================================
+XGE p31
+
+The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai's resolve is nearly unbreakable, and the enemies in a Samurai's path have two choices: yield or die fighting.
+
+--- Bonus Proficiency (Level 3) ---
+XGE p31
+
+When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice.
+
+--- Fighting Spirit (Level 3) ---
+XGE p31
+
+Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on your turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so, you also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this class, increasing to 10 at 10th level and 15 at 15th level.
+
+You can use this feature three times, and you regain all expended uses when you finish a long rest.
+
+--- Elegant Courtier (Level 7) ---
+XGE p31
+
+Starting at 7th level, your discipline and attention to detail allow you to excel in social situations. Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier.
+
+Your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).
+
+--- Tireless Spirit (Level 10) ---
+XGE p31
+
+Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.
+
+--- Rapid Strike (Level 15) ---
+XGE p31
+
+Starting at 15th level, you learn to trade accuracy for swift strikes. If you take the Attack action on your turn and have advantage on an attack roll against one of the targets, you can forgo the advantage for that roll to make an additional weapon attack against that target, as part of the same action. You can do so no more than once per turn.
+
+--- Strength before Death (Level 18) ---
+XGE p31
+
+Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you to 0 hit points and doesn't kill you outright, you can use your reaction to delay falling unconscious, and you can immediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal. When the extra turn ends, you fall unconscious if you still have 0 hit points.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+================================================================================
+LEVEL 4: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p92
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16.
+
+================================================================================
+LEVEL 5: EXTRA ATTACK
+================================================================================
+PHB'24 p92
+
+You can attack twice instead of once whenever you take the Attack action on your turn.
+
+================================================================================
+LEVEL 5: TACTICAL SHIFT
+================================================================================
+PHB'24 p92
+
+Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.
+
+================================================================================
+LEVEL 6: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p92
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+================================================================================
+LEVEL 7: SUBCLASS FEATURE
+================================================================================
+PHB'24 p92
+
+You gain a feature from your Fighter Subclass.
+
+================================================================================
+LEVEL 8: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p92
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+================================================================================
+LEVEL 9: INDOMITABLE
+================================================================================
+PHB'24 p92
+
+If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.
+
+You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.
+
+================================================================================
+LEVEL 9: TACTICAL MASTER
+================================================================================
+PHB'24 p92
+
+When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.
+
+================================================================================
+LEVEL 10: SUBCLASS FEATURE
+================================================================================
+PHB'24 p92
+
+You gain a feature from your Fighter Subclass.
+
+================================================================================
+LEVEL 11: TWO EXTRA ATTACKS
+================================================================================
+PHB'24 p92
+
+You can attack three times instead of once whenever you take the Attack action on your turn.
+
+================================================================================
+LEVEL 12: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p92
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+================================================================================
+LEVEL 13: INDOMITABLE (TWO USES)
+================================================================================
+PHB'24 p92
+
+You can use this feature twice before a Long Rest starting at level 13.
+
+================================================================================
+LEVEL 13: STUDIED ATTACKS
+================================================================================
+PHB'24 p92
+
+You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.
+
+================================================================================
+LEVEL 14: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p92
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+================================================================================
+LEVEL 15: SUBCLASS FEATURE
+================================================================================
+PHB'24 p92
+
+You gain a feature from your Fighter Subclass.
+
+================================================================================
+LEVEL 16: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p92
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+================================================================================
+LEVEL 17: ACTION SURGE (TWO USES)
+================================================================================
+PHB'24 p91
+
+Starting at level 17, you can use Action Surge twice before a rest but only once on a turn.
+
+================================================================================
+LEVEL 17: INDOMITABLE (THREE USES)
+================================================================================
+PHB'24 p92
+
+You can use this feature three times before a Long Rest starting at level 17.
+
+================================================================================
+LEVEL 18: SUBCLASS FEATURE
+================================================================================
+PHB'24 p92
+
+You gain a feature from your Fighter Subclass.
+
+================================================================================
+LEVEL 19: EPIC BOON
+================================================================================
+PHB'24 p92
+
+You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.
+
+================================================================================
+LEVEL 20: THREE EXTRA ATTACKS
+================================================================================
+PHB'24 p92
+
+You can attack four times instead of once whenever you take the Attack action on your turn.
+

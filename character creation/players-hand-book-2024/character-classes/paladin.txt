@@ -1,0 +1,740 @@
+PALADIN CLASS FEATURES - D&D
+
+================================================================================
+LEVEL 1: LAY ON HANDS
+================================================================================
+PHB'24 p109
+
+Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.
+
+As a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.
+
+You can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature.
+
+================================================================================
+LEVEL 1: SPELLCASTING
+================================================================================
+PHB'24 p109
+
+You have learned to cast spells through prayer and meditation. See chapter 7 for the rules on spellcasting.
+
+SPELL SLOTS: The Paladin Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
+
+PREPARED SPELLS OF LEVEL 1+: You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Paladin spells. Heroism and Searing Smite are recommended.
+
+The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Paladin Features table. Whenever that number increases, choose additional Paladin spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots.
+
+If another Paladin feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Paladin spells for you.
+
+CHANGING YOUR PREPARED SPELLS: Whenever you finish a Long Rest, you can replace one spell on your list with another Paladin spell for which you have spell slots.
+
+SPELLCASTING ABILITY: Charisma is your spellcasting ability for your Paladin spells.
+
+SPELLCASTING FOCUS: You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.
+
+================================================================================
+LEVEL 1: WEAPON MASTERY
+================================================================================
+PHB'24 p110
+
+Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.
+
+Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.
+
+================================================================================
+LEVEL 2: FIGHTING STYLE
+================================================================================
+PHB'24 p110
+
+You gain a Fighting Style feat of your choice. Instead of choosing one of those feats, you can choose the option below.
+
+BLESSED WARRIOR: You learn two Cleric cantrips of your choice. Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.
+
+================================================================================
+LEVEL 2: PALADIN'S SMITE
+================================================================================
+PHB'24 p110
+
+You always have the Divine Smite spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.
+
+================================================================================
+LEVEL 3: CHANNEL DIVINITY
+================================================================================
+PHB'24 p110
+
+You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.
+
+You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.
+
+If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.
+
+DIVINE SENSE: As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.
+
+================================================================================
+LEVEL 3: PALADIN SUBCLASS
+================================================================================
+PHB'24 p111
+
+You gain a Paladin subclass of your choice. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.
+
+BREAKING YOUR OATH
+
+A Paladin tries to hold to the highest standards of conduct, but even the most dedicated are fallible. Sometimes a Paladin transgresses their oath.
+
+A Paladin who has broken a vow typically seeks absolution, spending an all-night vigil as a sign of penitence or undertaking a fast. After a rite of forgiveness, the Paladin starts fresh.
+
+If your Paladin unrepentantly violates their oath, talk to your DM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one.
+
+================================================================================
+OATH OF CONQUEST
+================================================================================
+XGE p37
+
+The Oath of Conquest calls to paladins who seek glory in battle and the subjugation of their enemies. It isn't enough for these paladins to establish order. They must crush the forces of chaos.
+
+TENETS OF CONQUEST:
+- Douse the Flame of Hope
+- Rule with an Iron Fist
+- Strength Above All
+
+--- Oath Spells (Level 3) ---
+XGE p37
+
+OATH OF CONQUEST SPELLS
+Paladin Level | Spells
+3rd           | armor of Agathys, command
+5th           | hold person, spiritual weapon
+9th           | bestow curse, fear
+13th          | dominate beast, stoneskin
+17th          | cloudkill, dominate person
+
+--- Channel Divinity (Level 3) ---
+XGE p37
+
+CONQUERING PRESENCE: You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns.
+
+GUIDED STRIKE: You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.
+
+--- Aura of Conquest (Level 7) ---
+XGE p37
+
+Starting at 7th level, you constantly emanate a menacing aura while you're not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover.
+
+If a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.
+
+At 18th level, the range of this aura increases to 30 feet.
+
+--- Scornful Rebuke (Level 15) ---
+XGE p37
+
+Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not incapacitated.
+
+--- Invincible Conqueror (Level 20) ---
+XGE p37
+
+At 20th level, you gain the ability to harness extraordinary martial prowess. As an action, you can magically become an avatar of conquest, gaining the following benefits for 1 minute:
+
+- You have resistance to all damage.
+- When you take the Attack action on your turn, you can make one additional attack as part of that action.
+- Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+================================================================================
+OATH OF DEVOTION
+================================================================================
+PHB'24 p113
+
+The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct.
+
+TENETS:
+- Let your word be your promise.
+- Protect the weak and never fear to act.
+- Let your honorable deeds be an example.
+
+--- Oath of Devotion Spells (Level 3) ---
+PHB'24 p113
+
+OATH OF DEVOTION SPELLS
+Paladin Level | Spells
+3rd           | Protection from Evil And Good, Shield of Faith
+5th           | Aid, Zone of Truth
+9th           | Beacon of Hope, Dispel Magic
+13th          | Freedom of Movement, Guardian of Faith
+17th          | Commune, Flame Strike
+
+--- Sacred Weapon (Level 3) ---
+PHB'24 p113
+
+When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.
+
+The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.
+
+You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.
+
+--- Aura of Devotion (Level 7) ---
+PHB'24 p114
+
+You and your allies have Immunity to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there.
+
+--- Smite of Protection (Level 15) ---
+PHB'24 p114
+
+Your magical smite now radiates protective energy. Whenever you cast Divine Smite, you and your allies have Half Cover while in your Aura of Protection. The aura has this benefit until the start of your next turn.
+
+--- Holy Nimbus (Level 20) ---
+PHB'24 p114
+
+As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).
+
+HOLY WARD: You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.
+
+RADIANT DAMAGE: Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Charisma modifier plus your Proficiency Bonus.
+
+SUNLIGHT: The aura is filled with Bright Light that is sunlight.
+
+================================================================================
+OATH OF GLORY
+================================================================================
+PHB'24 p114
+
+Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they're all ready when destiny calls.
+
+TENETS:
+- Endeavor to be known by your deeds.
+- Face hardships with courage.
+- Inspire others to strive for glory.
+
+--- Oath of Glory Spells (Level 3) ---
+PHB'24 p115
+
+OATH OF GLORY SPELLS
+Paladin Level | Spells
+3rd           | Guiding Bolt, Heroism
+5th           | Enhance Ability, Magic Weapon
+9th           | Haste, Protection from Energy
+13th          | Compulsion, Freedom of Movement
+17th          | Legend Lore, Yolande's Regal Presence
+
+--- Inspiring Smite (Level 3) ---
+PHB'24 p115
+
+Immediately after you cast Divine Smite, you can expend one use of your Channel Divinity and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.
+
+--- Peerless Athlete (Level 3) ---
+PHB'24 p115
+
+As a Bonus Action, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).
+
+--- Aura of Alacrity (Level 7) ---
+PHB'24 p115
+
+Your Speed increases by 10 feet.
+
+In addition, whenever an ally enters your Aura of Protection for the first time on a turn or starts their turn there, the ally's Speed increases by 10 feet until the end of their next turn.
+
+--- Glorious Defense (Level 15) ---
+PHB'24 p115
+
+You can turn defense into a sudden strike. When you or another creature you can see within 10 feet of you is hit by an attack roll, you can take a Reaction to grant a bonus to the target's AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one attack with a weapon against the attacker as part of this Reaction if the attacker is within your weapon's range.
+
+You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+
+--- Living Legend (Level 20) ---
+PHB'24 p115
+
+You can empower yourself with the legends—whether true or exaggerated—of your great deeds. As a Bonus Action, you gain the benefits below for 10 minutes. Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).
+
+CHARISMATIC: You are blessed with an otherworldly presence and have Advantage on all Charisma checks.
+
+SAVING THROW REROLL: If you fail a saving throw, you can take a Reaction to reroll it. You must use this new roll.
+
+UNERRING STRIKE: Once on each of your turns when you make an attack roll with a weapon and miss, you can cause that attack to hit instead.
+
+================================================================================
+OATH OF REDEMPTION
+================================================================================
+XGE p38
+
+The Oath of Redemption sets a paladin on a difficult path, one that requires a holy warrior to use violence only as a last resort. Paladins who dedicate themselves to this oath believe that any person can be redeemed.
+
+TENETS OF REDEMPTION:
+- Peace
+- Innocence
+- Patience
+- Wisdom
+
+--- Oath Spells (Level 3) ---
+XGE p38
+
+OATH OF REDEMPTION SPELLS
+Paladin Level | Spells
+3rd           | sanctuary, sleep
+5th           | calm emotions, hold person
+9th           | counterspell, hypnotic pattern
+13th          | Otiluke's resilient sphere, stoneskin
+17th          | hold monster, wall of force
+
+--- Channel Divinity (Level 3) ---
+XGE p38
+
+EMISSARY OF PEACE: You can use your Channel Divinity to augment your presence with divine power. As a bonus action, you grant yourself a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes.
+
+REBUKE THE VIOLENT: You can use your Channel Divinity to rebuke those who use violence. Immediately after an attacker within 30 feet of you deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage.
+
+--- Aura of the Guardian (Level 7) ---
+XGE p38
+
+Starting at 7th level, you can shield others from harm at the cost of your own health. When a creature within 10 feet of you takes damage, you can use your reaction to magically take that damage, instead of that creature taking it. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way.
+
+At 18th level, the range of this aura increases to 30 feet.
+
+--- Protective Spirit (Level 15) ---
+XGE p38
+
+Starting at 15th level, a holy presence mends your wounds in battle. You regain hit points equal to 1d6 + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren't incapacitated.
+
+--- Emissary of Redemption (Level 20) ---
+XGE p38
+
+At 20th level, you become an avatar of peace, which gives you two benefits:
+
+- You have resistance to all damage dealt by other creatures (their attacks, spells, and other effects).
+- Whenever a creature hits you with an attack, it takes radiant damage equal to half the damage you take from the attack.
+
+If you attack a creature, cast a spell on it, or deal damage to it by any means but this feature, neither benefit works against that creature until you finish a long rest.
+
+================================================================================
+OATH OF THE ANCIENTS
+================================================================================
+PHB'24 p115
+
+The Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice.
+
+TENETS:
+- Kindle the light of hope.
+- Shelter life.
+- Delight in art and laughter.
+
+--- Oath of the Ancients Spells (Level 3) ---
+PHB'24 p115
+
+OATH OF THE ANCIENTS SPELLS
+Paladin Level | Spells
+3rd           | Ensnaring Strike, Speak with Animals
+5th           | Misty Step, Moonbeam
+9th           | Plant Growth, Protection from Energy
+13th          | Ice Storm, Stoneskin
+17th          | Commune with Nature, Tree Stride
+
+--- Nature's Wrath (Level 3) ---
+PHB'24 p115
+
+As a Magic action, you can expend one use of your Channel Divinity to conjure spectral vines around nearby creatures. Each creature of your choice that you can see within 15 feet of yourself must succeed on a Strength saving throw or have the Restrained condition for 1 minute. A Restrained creature repeats the save at the end of each of its turns, ending the effect on itself on a success.
+
+--- Aura of Warding (Level 7) ---
+PHB'24 p116
+
+Ancient magic lies so heavily upon you that it forms an eldritch ward, blunting energy from beyond the Material Plane; you and your allies have Resistance to Necrotic, Psychic, and Radiant damage while in your Aura of Protection.
+
+--- Undying Sentinel (Level 15) ---
+PHB'24 p116
+
+When you are reduced to 0 Hit Points and not killed outright, you can drop to 1 Hit Point instead, and you regain a number of Hit Points equal to three times your Paladin level. Once you use this feature, you can't do so again until you finish a Long Rest.
+
+Additionally, you can't be aged magically, and you cease visibly aging.
+
+--- Elder Champion (Level 20) ---
+PHB'24 p116
+
+As a Bonus Action, you can imbue your Aura of Protection with primal power, granting the benefits below for 1 minute or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).
+
+DIMINISH DEFIANCE: Enemies in the aura have Disadvantage on saving throws against your spells and Channel Divinity options.
+
+REGENERATION: At the start of each of your turns, you regain 10 Hit Points.
+
+SWIFT SPELLS: Whenever you cast a spell that has a casting time of an action, you can cast it using a Bonus Action instead.
+
+================================================================================
+OATH OF THE CROWN
+================================================================================
+SCAG p132
+
+The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership.
+
+TENETS OF THE CROWN:
+- Law
+- Loyalty
+- Courage
+- Responsibility
+
+--- Oath Spells (Level 3) ---
+SCAG p132
+
+OATH OF THE CROWN SPELLS
+Paladin Level | Spells
+3rd           | command, compelled duel
+5th           | warding bond, zone of truth
+9th           | aura of vitality, spirit guardians
+13th          | banishment, guardian of faith
+17th          | circle of power, geas
+
+--- Channel Divinity (Level 3) ---
+SCAG p132
+
+CHAMPION CHALLENGE: As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is more than 30 feet away from you.
+
+TURN THE TIDE: As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.
+
+--- Divine Allegiance (Level 7) ---
+SCAG p132
+
+Starting at 7th level, when a creature within 5 feet of you takes damage, you can use your reaction to magically substitute your own health for that of the target creature, causing that creature not to take the damage. Instead, you take the damage. This damage to you can't be reduced or prevented in any way.
+
+--- Unyielding Spirit (Level 15) ---
+SCAG p132
+
+Starting at 15th level, you have advantage on saving throws to avoid becoming paralyzed or stunned.
+
+--- Exalted Champion (Level 20) ---
+SCAG p132
+
+At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour:
+
+- You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.
+- Your allies have advantage on death saving throws while within 30 feet of you.
+- You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.
+
+This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.
+
+================================================================================
+OATH OF THE NOBLE GENIES
+================================================================================
+FRHoF p20
+
+Paladins sworn to the Oath of the Noble Genies revere the forces of the Elemental Planes. Through taking this oath, Paladins draw power from the four different types of genies—dao, djinn, efreet, and marids.
+
+TENETS:
+- Sow the seeds of creation amid the ashes of destruction.
+- Lead with splendor and grace.
+- Respect the elements, and fear their wrath.
+
+--- Elemental Smite (Level 3) ---
+FRHoF p20
+
+Immediately after you cast Divine Smite, you can expend one use of your Channel Divinity and invoke one of the following effects.
+
+DAO'S CRUSH: Earth rises up around the target of your Divine Smite. The target has the Grappled condition (escape DC equal to your spell save DC). While Grappled, the target has the Restrained condition.
+
+DJINNI'S ESCAPE: You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Grappled, Prone, and Restrained conditions.
+
+EFREETI'S FURY: The target of your Divine Smite takes an extra 2d4 Fire damage, and fire jumps from the target to another creature you can see within 30 feet of yourself. The second creature also takes 2d4 Fire damage.
+
+MARID'S SURGE: The target of your Divine Smite and each creature of your choice in a 10-foot Emanation originating from you make a Strength saving throw against your spell save DC. On a failed save, a creature is pushed 15 feet straight away from you and has the Prone condition.
+
+--- Genie Spells (Level 3) ---
+FRHoF p21
+
+GENIE SPELLS
+Paladin Level | Spells
+3             | Chromatic Orb, Elementalism, Thunderous Smite
+5             | Mirror Image, Phantasmal Force
+9             | Fly, Gaseous Form
+13            | Conjure Minor Elementals, Summon Elemental
+17            | Banishing Smite, Contact Other Plane
+
+--- Genie's Splendor (Level 3) ---
+FRHoF p21
+
+When you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers. You can use a Shield and still gain this benefit.
+
+You also gain proficiency in one of the following skills of your choice: Acrobatics, Intimidation, Performance, or Persuasion.
+
+--- Aura of Elemental Shielding (Level 7) ---
+FRHoF p21
+
+Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You and your allies have Resistance to that damage type while in your Aura of Protection.
+
+At the start of each of your turns, you can change the damage type affected by this feature to one of the other listed options (no action required).
+
+--- Elemental Rebuke (Level 15) ---
+FRHoF p21
+
+When you are hit by an attack roll, you can take a Reaction to halve the attack's damage against yourself (round down) and force the attacker to make a Dexterity saving throw against your spell save DC. On a failed save, the attacker takes damage equal to 2d10 plus your Charisma modifier of one of the following types (your choice): Acid, Cold, Fire, Lightning, or Thunder. On a successful save, the attacker takes half as much damage.
+
+You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+
+--- Noble Scion (Level 20) ---
+FRHoF p21
+
+As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).
+
+FLIGHT: You have a Fly Speed of 60 feet and can hover.
+
+MINOR WISH: When you or an ally in your Aura of Protection fails a D20 Test, you can take a Reaction to make the D20 Test succeed instead.
+
+================================================================================
+OATH OF THE WATCHERS
+================================================================================
+TCE p54
+
+The Oath of the Watchers binds paladins to protect mortal realms from the predations of extraplanar creatures, many of which can lay waste to mortal soldiers.
+
+TENETS OF THE WATCHERS:
+- Vigilance
+- Loyalty
+- Discipline
+
+--- Oath Spells (Level 3) ---
+TCE p54
+
+OATH OF THE WATCHERS SPELLS
+Paladin Level | Spells
+3rd           | alarm, detect magic
+5th           | moonbeam, see invisibility
+9th           | counterspell, nondetection
+13th          | aura of purity, banishment
+17th          | hold monster, scrying
+
+--- Channel Divinity (Level 3) ---
+TCE p54
+
+WATCHER'S WILL: You can use your Channel Divinity to invest your presence with the warding power of your faith. As an action, you can choose a number of creatures you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, you and the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.
+
+ABJURE THE EXTRAPLANAR: You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each aberration, celestial, elemental, fey, or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.
+
+--- Aura of the Sentinel (Level 7) ---
+TCE p54
+
+You emit an aura of alertness while you aren't incapacitated. When you and any creatures of your choice within 10 feet of you roll initiative, you all gain a bonus to initiative equal to your proficiency bonus.
+
+At 18th level, the range of this aura increases to 30 feet.
+
+--- Vigilant Rebuke (Level 15) ---
+TCE p54
+
+You've learned how to chastise anyone who dares wield beguilements against you and your wards. Whenever you or a creature you can see within 30 feet of you succeeds on an Intelligence, a Wisdom, or a Charisma saving throw, you can use your reaction to deal 2d8 + your Charisma modifier force damage to the creature that forced the saving throw.
+
+--- Mortal Bulwark (Level 20) ---
+TCE p54
+
+You manifest a spark of divine power in defense of the mortal realms. As a bonus action, you gain the following benefits for 1 minute:
+
+- You gain truesight with a range of 120 feet.
+- You have advantage on attack rolls against aberrations, celestials, elementals, fey, and fiends.
+- When you hit a creature with an attack roll and deal damage to it, you can also force it to make a Charisma saving throw against your spell save DC. On a failed save, the creature is magically banished to its native plane of existence if it's currently not there.
+
+Once you use this bonus action, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again.
+
+================================================================================
+OATH OF VENGEANCE
+================================================================================
+PHB'24 p116
+
+The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods—at times like these, paladins arise and swear an Oath of Vengeance.
+
+TENETS:
+- Show the wicked no mercy.
+- Fight injustice and its causes.
+- Aid those harmed by injustice.
+
+--- Oath of Vengeance Spells (Level 3) ---
+PHB'24 p116
+
+OATH OF VENGEANCE SPELLS
+Paladin Level | Spells
+3rd           | Bane, Hunter's Mark
+5th           | Hold Person, Misty Step
+9th           | Haste, Protection from Energy
+13th          | Banishment, Dimension Door
+17th          | Hold Monster, Scrying
+
+--- Vow of Enmity (Level 3) ---
+PHB'24 p117
+
+When you take the Attack action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You have Advantage on attack rolls against the creature for 1 minute or until you use this feature again.
+
+If the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required).
+
+--- Relentless Avenger (Level 7) ---
+PHB'24 p117
+
+Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0 until the end of the current turn. You can then move up to half your Speed as part of the same Reaction. This movement doesn't provoke Opportunity Attacks.
+
+--- Soul of Vengeance (Level 15) ---
+PHB'24 p117
+
+Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack roll, you can take a Reaction to make a melee attack against that creature if it's within range.
+
+--- Avenging Angel (Level 20) ---
+PHB'24 p117
+
+As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).
+
+FLIGHT: You sprout spectral wings on your back, have a Fly Speed of 60 feet, and can hover.
+
+FRIGHTFUL AURA: Whenever an enemy starts its turn in your Aura of Protection, that creature must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the Frightened creature have Advantage.
+
+================================================================================
+OATHBREAKER
+================================================================================
+DMG'14 p97
+
+An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.
+
+--- Oathbreaker Spells (Level 3) ---
+DMG'14 p97
+
+OATHBREAKER SPELLS
+Paladin Level | Spells
+3rd           | hellish rebuke, inflict wounds
+5th           | crown of madness, darkness
+9th           | animate dead, bestow curse
+13th          | blight, confusion
+17th          | contagion, dominate person
+
+--- Channel Divinity (Level 3) ---
+DMG'14 p97
+
+CONTROL UNDEAD: As an action, the paladin targets one undead creature he or she can see within 30 feet. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect.
+
+DREADFUL ASPECT: As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute.
+
+--- Aura of Hate (Level 7) ---
+DMG'14 p97
+
+Starting at 7th level, the paladin, as well any fiends and undead within 10 feet of the paladin, gains a bonus to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum of +1).
+
+At 18th level, the range of this aura increases to 30 feet.
+
+--- Supernatural Resistance (Level 15) ---
+DMG'14 p97
+
+At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.
+
+--- Dread Lord (Level 20) ---
+DMG'14 p97
+
+At 20th level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is frightened by the paladin starts its turn in the aura, it takes 4d10 psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow.
+
+While the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to 3d10 + the paladin's Charisma modifier.
+
+After activating the aura, the paladin can't do so again until he or she finishes a long rest.
+
+================================================================================
+LEVEL 4: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p111
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16.
+
+================================================================================
+LEVEL 5: EXTRA ATTACK
+================================================================================
+PHB'24 p111
+
+You can attack twice instead of once whenever you take the Attack action on your turn.
+
+================================================================================
+LEVEL 5: FAITHFUL STEED
+================================================================================
+PHB'24 p111
+
+You can call on the aid of an otherworldly steed. You always have the Find Steed spell prepared.
+
+You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.
+
+================================================================================
+LEVEL 6: AURA OF PROTECTION
+================================================================================
+PHB'24 p111
+
+You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.
+
+You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).
+
+If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.
+
+================================================================================
+LEVEL 7: SUBCLASS FEATURE
+================================================================================
+PHB'24 p111
+
+You gain a feature from your Paladin Subclass.
+
+================================================================================
+LEVEL 8: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p111
+
+You gain the Ability Score Improvement Feat or another feat of your choice for which you qualify.
+
+================================================================================
+LEVEL 9: ABJURE FOES
+================================================================================
+PHB'24 p111
+
+As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.
+
+================================================================================
+LEVEL 10: AURA OF COURAGE
+================================================================================
+PHB'24 p111
+
+You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.
+
+================================================================================
+LEVEL 11: RADIANT STRIKES
+================================================================================
+PHB'24 p111
+
+Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.
+
+================================================================================
+LEVEL 12: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p111
+
+You gain the Ability Score Improvement Feat or another feat of your choice for which you qualify.
+
+================================================================================
+LEVEL 14: RESTORING TOUCH
+================================================================================
+PHB'24 p111
+
+When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature.
+
+================================================================================
+LEVEL 15: SUBCLASS FEATURE
+================================================================================
+PHB'24 p111
+
+You gain a feature from your Paladin Subclass.
+
+================================================================================
+LEVEL 16: ABILITY SCORE IMPROVEMENT
+================================================================================
+PHB'24 p111
+
+You gain the Ability Score Improvement Feat or another feat of your choice for which you qualify.
+
+================================================================================
+LEVEL 18: AURA EXPANSION
+================================================================================
+PHB'24 p111
+
+Your Aura of Protection is now a 30-foot Emanation.
+
+================================================================================
+LEVEL 19: EPIC BOON
+================================================================================
+PHB'24 p111
+
+You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Truesight is recommended.
+
+================================================================================
+LEVEL 20: SUBCLASS FEATURE
+================================================================================
+PHB'24 p111
+
+You gain a feature from your Paladin Subclass.
