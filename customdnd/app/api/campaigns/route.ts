@@ -6,6 +6,8 @@ export const runtime = "nodejs";
 
 type CreateCampaignRequest = {
   name?: string;
+  description?: string;
+  partyList?: string[];
 };
 
 export async function GET() {
@@ -26,6 +28,8 @@ export async function POST(request: Request) {
 
   const body = (await request.json()) as CreateCampaignRequest;
   const name = body.name ?? "";
+  const description = body.description ?? "";
+  const partyList = Array.isArray(body.partyList) ? body.partyList : [];
 
   if (!name.trim()) {
     return NextResponse.json({ error: "Campaign name is required." }, { status: 400 });
@@ -35,8 +39,16 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Campaign name must be 80 characters or fewer." }, { status: 400 });
   }
 
+  if (description.trim().length > 1000) {
+    return NextResponse.json({ error: "Description must be 1000 characters or fewer." }, { status: 400 });
+  }
+
+  if (partyList.length > 50) {
+    return NextResponse.json({ error: "Party list must be 50 entries or fewer." }, { status: 400 });
+  }
+
   try {
-    const campaign = await createCampaign(user.id, name);
+    const campaign = await createCampaign(user.id, name, description, partyList);
     return NextResponse.json({ campaign }, { status: 201 });
   } catch {
     return NextResponse.json({ error: "Unable to create campaign." }, { status: 400 });

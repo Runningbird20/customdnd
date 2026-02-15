@@ -6,6 +6,8 @@ import { FormEvent, useCallback, useEffect, useMemo, useState } from "react";
 type Campaign = {
   id: string;
   name: string;
+  description: string;
+  partyList: string[];
   ownerUserId: string;
   createdAt: string;
   role: "owner" | "dm" | "player" | "spectator";
@@ -43,9 +45,12 @@ type CampaignMember = {
 
 export function CampaignManager() {
   const [campaigns, setCampaigns] = useState<Campaign[]>([]);
+  const [activeCampaignId, setActiveCampaignId] = useState("");
   const [pendingEmailInvites, setPendingEmailInvites] = useState<CampaignEmailInvite[]>([]);
   const [selectedCampaignId, setSelectedCampaignId] = useState("");
   const [campaignName, setCampaignName] = useState("");
+  const [campaignDescription, setCampaignDescription] = useState("");
+  const [campaignPartyListText, setCampaignPartyListText] = useState("");
   const [expiresInHours, setExpiresInHours] = useState(24);
   const [inviteEmail, setInviteEmail] = useState("");
   const [inviteLinks, setInviteLinks] = useState<CampaignInviteLink[]>([]);
@@ -58,6 +63,11 @@ export function CampaignManager() {
   const ownerCampaigns = useMemo(
     () => campaigns.filter((campaign) => campaign.role === "owner"),
     [campaigns],
+  );
+
+  const activeCampaign = useMemo(
+    () => campaigns.find((campaign) => campaign.id === activeCampaignId) ?? null,
+    [activeCampaignId, campaigns],
   );
 
   const loadCampaigns = useCallback(async () => {
@@ -82,6 +92,16 @@ export function CampaignManager() {
       throw new Error(result.error ?? "Unable to load pending email invites.");
     }
     setPendingEmailInvites(result.invites);
+  }, []);
+
+  const loadActiveCampaign = useCallback(async () => {
+    const response = await fetch("/api/campaigns/active");
+    const result = (await response.json()) as { activeCampaignId?: string | null; error?: string };
+    if (!response.ok) {
+      throw new Error(result.error ?? "Unable to load active campaign.");
+    }
+
+    setActiveCampaignId(result.activeCampaignId ?? "");
   }, []);
 
   const loadOwnerInviteData = useCallback(async (campaignId: string) => {
@@ -131,6 +151,7 @@ export function CampaignManager() {
     try {
       await loadCampaigns();
       await loadPendingEmailInvites();
+      await loadActiveCampaign();
       const currentCampaignId = campaignId ?? selectedCampaignId;
       if (currentCampaignId) {
         await loadOwnerInviteData(currentCampaignId);
@@ -141,7 +162,7 @@ export function CampaignManager() {
     } finally {
       setLoading(false);
     }
-  }, [loadCampaignMembers, loadCampaigns, loadOwnerInviteData, loadPendingEmailInvites, selectedCampaignId]);
+  }, [loadActiveCampaign, loadCampaignMembers, loadCampaigns, loadOwnerInviteData, loadPendingEmailInvites, selectedCampaignId]);
 
   useEffect(() => {
     async function initialLoad() {
@@ -149,6 +170,7 @@ export function CampaignManager() {
       try {
         await loadCampaigns();
         await loadPendingEmailInvites();
+        await loadActiveCampaign();
       } catch (error) {
         setMessage(error instanceof Error ? error.message : "Unable to load campaign data.");
       } finally {
@@ -157,7 +179,7 @@ export function CampaignManager() {
     }
 
     void initialLoad();
-  }, [loadCampaigns, loadPendingEmailInvites]);
+  }, [loadActiveCampaign, loadCampaigns, loadPendingEmailInvites]);
 
   useEffect(() => {
     if (!selectedCampaignId) {
@@ -176,7 +198,14 @@ export function CampaignManager() {
       const response = await fetch("/api/campaigns", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: campaignName }),
+        body: JSON.stringify({
+          name: campaignName,
+          description: campaignDescription,
+          partyList: campaignPartyListText
+            .split("\n")
+            .map((entry) => entry.trim())
+            .filter((entry) => entry.length > 0),
+        }),
       });
       const result = (await response.json()) as { error?: string; campaign?: Campaign };
       if (!response.ok || !result.campaign) {
@@ -185,6 +214,8 @@ export function CampaignManager() {
       }
 
       setCampaignName("");
+      setCampaignDescription("");
+      setCampaignPartyListText("");
       setSelectedCampaignId(result.campaign.id);
       setMessage("Campaign created.");
       await refreshAll(result.campaign.id);
@@ -315,6 +346,29 @@ export function CampaignManager() {
     }
   }
 
+  async function setActiveCampaign(campaignId: string) {
+    setSaving(true);
+    setMessage("");
+    try {
+      const response = await fetch("/api/campaigns/active", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ campaignId }),
+      });
+      const result = (await response.json()) as { error?: string; activeCampaignId?: string };
+      if (!response.ok || !result.activeCampaignId) {
+        setMessage(result.error ?? "Unable to switch active campaign.");
+        return;
+      }
+      setActiveCampaignId(result.activeCampaignId);
+      setMessage("Active campaign switched.");
+    } catch {
+      setMessage("Unable to switch active campaign.");
+    } finally {
+      setSaving(false);
+    }
+  }
+
   return (
     <section className="mt-8 space-y-4 rounded border p-4">
       <h2 className="text-lg font-semibold">Campaign Invites</h2>
@@ -333,6 +387,27 @@ export function CampaignManager() {
             required
           />
         </label>
+        <label className="block text-sm">
+          Description
+          <textarea
+            value={campaignDescription}
+            onChange={(event) => setCampaignDescription(event.target.value)}
+            maxLength={1000}
+            rows={3}
+            className="mt-1 w-full rounded border px-3 py-2"
+            placeholder="Campaign summary, tone, or setting notes"
+          />
+        </label>
+        <label className="block text-sm">
+          Party List (one per line)
+          <textarea
+            value={campaignPartyListText}
+            onChange={(event) => setCampaignPartyListText(event.target.value)}
+            rows={4}
+            className="mt-1 w-full rounded border px-3 py-2"
+            placeholder={"Aldric the Paladin\nNyx the Rogue\nMira the Cleric"}
+          />
+        </label>
         <button type="submit" disabled={saving} className="rounded border px-3 py-2 text-sm">
           Create Campaign
         </button>
@@ -340,13 +415,62 @@ export function CampaignManager() {
 
       <div className="space-y-2">
         <h3 className="text-sm font-semibold">Your Campaigns</h3>
+        {activeCampaign ? (
+          <p className="text-sm">
+            Active campaign: <strong>{activeCampaign.name}</strong>
+          </p>
+        ) : null}
+        {campaigns.length > 0 ? (
+          <label className="block text-sm">
+            Switch Active Campaign
+            <select
+              value={activeCampaignId}
+              onChange={(event) => void setActiveCampaign(event.target.value)}
+              disabled={saving}
+              className="mt-1 w-full rounded border px-3 py-2"
+            >
+              <option value="">Select campaign</option>
+              {campaigns.map((campaign) => (
+                <option key={campaign.id} value={campaign.id}>
+                  {campaign.name} ({campaign.role})
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : null}
         {loading ? <p className="text-sm">Loading campaigns...</p> : null}
         {!loading && campaigns.length === 0 ? <p className="text-sm">No campaigns yet.</p> : null}
         {campaigns.map((campaign) => (
-          <p key={campaign.id} className="text-sm">
-            {campaign.name} ({campaign.role})
-          </p>
+          <div key={campaign.id} className="flex items-center justify-between rounded border p-2 text-sm">
+            <div>
+              <p>
+                {campaign.name} ({campaign.role}){campaign.id === activeCampaignId ? " [active]" : ""}
+              </p>
+              {campaign.description ? <p className="text-xs">{campaign.description}</p> : null}
+              {campaign.partyList.length > 0 ? (
+                <p className="text-xs">Party: {campaign.partyList.join(", ")}</p>
+              ) : null}
+            </div>
+            <div className="flex gap-2">
+              <button
+                type="button"
+                onClick={() => void setActiveCampaign(campaign.id)}
+                disabled={saving || campaign.id === activeCampaignId}
+                className="rounded border px-2 py-1 text-xs"
+              >
+                Set Active
+              </button>
+              <Link href={`/session/${campaign.id}`} className="rounded border px-2 py-1 text-xs">
+                Session Mode
+              </Link>
+            </div>
+          </div>
         ))}
+        {activeCampaignId ? (
+          <Link href={`/session/${activeCampaignId}`} className="inline-block rounded border px-3 py-2 text-sm">
+            Open Active Session Mode
+          </Link>
+        ) : null}
       </div>
 
       <div className="space-y-2">

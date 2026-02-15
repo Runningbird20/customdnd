@@ -9,6 +9,8 @@ export type AssignableCampaignRole = Exclude<CampaignRole, "owner">;
 export type Campaign = {
   id: string;
   name: string;
+  description: string;
+  partyList: string[];
   ownerUserId: string;
   createdAt: string;
 };
@@ -23,6 +25,30 @@ export type CampaignMember = {
 export type CampaignMemberWithUser = CampaignMember & {
   email: string;
   displayName: string;
+};
+
+export type SessionModeSnapshot = {
+  campaign: {
+    id: string;
+    name: string;
+    description: string;
+    partyList: string[];
+  };
+  currentUser: {
+    userId: string;
+    role: CampaignRole;
+    permissions: {
+      canRunSession: boolean;
+      canManageInvites: boolean;
+      canManageRoles: boolean;
+      canManageHouseRules: boolean;
+    };
+  };
+  members: Array<{
+    userId: string;
+    displayName: string;
+    role: CampaignRole;
+  }>;
 };
 
 export type CampaignInviteLink = {
@@ -49,6 +75,11 @@ type LegacyCampaignMember = Omit<CampaignMember, "role"> & {
   role: "owner" | "player";
 };
 
+type LegacyCampaign = Omit<Campaign, "description" | "partyList"> & {
+  description?: string;
+  partyList?: string[];
+};
+
 type CampaignsFile = {
   campaigns: Campaign[];
   members: CampaignMember[];
@@ -65,6 +96,19 @@ function normalizeEmail(email: string): string {
 
 function sanitizeCampaignName(input: string): string {
   return input.trim().replace(/\s+/g, " ").slice(0, 80);
+}
+
+function sanitizeCampaignDescription(input: string): string {
+  return input.trim().slice(0, 1000);
+}
+
+function sanitizePartyList(input: string[]): string[] {
+  const cleaned = input
+    .map((entry) => entry.trim().replace(/\s+/g, " ").slice(0, 60))
+    .filter((entry) => entry.length > 0);
+
+  const unique = Array.from(new Set(cleaned));
+  return unique.slice(0, 50);
 }
 
 function normalizeMemberRole(role: LegacyCampaignMember["role"] | CampaignRole): CampaignRole {
@@ -93,14 +137,18 @@ async function readCampaignsFile(): Promise<CampaignsFile> {
   await ensureCampaignsFile();
   const raw = await readFile(CAMPAIGNS_FILE, "utf8");
   const parsed = JSON.parse(raw) as {
-    campaigns?: Campaign[];
+    campaigns?: LegacyCampaign[];
     members?: LegacyCampaignMember[];
     inviteLinks?: CampaignInviteLink[];
     emailInvites?: CampaignEmailInvite[];
   };
 
   return {
-    campaigns: parsed.campaigns ?? [],
+    campaigns: (parsed.campaigns ?? []).map((campaign) => ({
+      ...campaign,
+      description: sanitizeCampaignDescription(campaign.description ?? ""),
+      partyList: sanitizePartyList(campaign.partyList ?? []),
+    })),
     members: (parsed.members ?? []).map((member) => ({
       ...member,
       role: normalizeMemberRole(member.role),
@@ -132,16 +180,26 @@ function ensureOwnerMembership(data: CampaignsFile, campaignId: string, ownerUse
   membership.role = "owner";
 }
 
-export async function createCampaign(ownerUserId: string, nameInput: string): Promise<Campaign> {
+export async function createCampaign(
+  ownerUserId: string,
+  nameInput: string,
+  descriptionInput = "",
+  partyListInput: string[] = [],
+): Promise<Campaign> {
   const name = sanitizeCampaignName(nameInput);
   if (!name) {
     throw new Error("Campaign name is required");
   }
 
+  const description = sanitizeCampaignDescription(descriptionInput);
+  const partyList = sanitizePartyList(partyListInput);
+
   const data = await readCampaignsFile();
   const campaign: Campaign = {
     id: randomUUID(),
     name,
+    description,
+    partyList,
     ownerUserId,
     createdAt: new Date().toISOString(),
   };
@@ -512,5 +570,64 @@ export async function updateCampaignMemberRole(
     ...data.members[memberIndex],
     email: user.email,
     displayName: user.displayName,
+  };
+}
+
+export async function getSessionModeSnapshot(
+  campaignId: string,
+  requesterUserId: string,
+): Promise<SessionModeSnapshot | null> {
+  const data = await readCampaignsFile();
+  const campaign = data.campaigns.find((item) => item.id === campaignId);
+  if (!campaign) {
+    return null;
+  }
+
+  ensureOwnerMembership(data, campaign.id, campaign.ownerUserId);
+
+  const requesterMembership = data.members.find(
+    (member) => member.campaignId === campaignId && member.userId === requesterUserId,
+  );
+  if (!requesterMembership) {
+    return null;
+  }
+
+  const members = data.members.filter((member) => member.campaignId === campaignId);
+  const users = await listUsersByIds(members.map((member) => member.userId));
+  const usersById = new Map(users.map((user) => [user.id, user]));
+
+  const role = requesterMembership.role;
+  const canRunSession = role === "owner" || role === "dm";
+
+  return {
+    campaign: {
+      id: campaign.id,
+      name: campaign.name,
+      description: campaign.description,
+      partyList: campaign.partyList,
+    },
+    currentUser: {
+      userId: requesterUserId,
+      role,
+      permissions: {
+        canRunSession,
+        canManageInvites: role === "owner",
+        canManageRoles: role === "owner",
+        canManageHouseRules: role === "owner" || role === "dm",
+      },
+    },
+    members: members
+      .map((member) => {
+        const user = usersById.get(member.userId);
+        if (!user) {
+          return null;
+        }
+        return {
+          userId: member.userId,
+          displayName: user.displayName,
+          role: member.role,
+        };
+      })
+      .filter((member): member is SessionModeSnapshot["members"][number] => Boolean(member)),
   };
 }
