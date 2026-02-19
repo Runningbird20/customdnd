@@ -1,0 +1,145 @@
+ARMOR
+
+============================================================
+LIGHT ARMOR
+
+Padded
+AC: 11 + Dex modifier
+Strength: -
+Stealth: Disadvantage
+Weight: 8 lb.
+Cost: 5 gp
+
+Leather
+AC: 11 + Dex modifier
+Strength: -
+Stealth: -
+Weight: 10 lb.
+Cost: 10 gp
+
+Studded Leather
+AC: 12 + Dex modifier
+Strength: -
+Stealth: -
+Weight: 13 lb.
+Cost: 45 gp
+
+============================================================
+MEDIUM ARMOR
+
+Hide
+AC: 12 + Dex modifier (max 2)
+Strength: -
+Stealth: -
+Weight: 12 lb.
+Cost: 10 gp
+
+Chain Shirt
+AC: 13 + Dex modifier (max 2)
+Strength: -
+Stealth: -
+Weight: 20 lb.
+Cost: 50 gp
+
+Scale Mail
+AC: 14 + Dex modifier (max 2)
+Strength: -
+Stealth: Disadvantage
+Weight: 45 lb.
+Cost: 50 gp
+
+Spiked Armor
+AC: 14 + Dex modifier (max 2)
+Strength: -
+Stealth: Disadvantage
+Weight: 45 lb.
+Cost: 75 gp
+
+Breastplate
+AC: 14 + Dex modifier (max 2)
+Strength: -
+Stealth: -
+Weight: 20 lb.
+Cost: 400 gp
+
+Half Plate
+AC: 15 + Dex modifier (max 2)
+Strength: -
+Stealth: Disadvantage
+Weight: 40 lb.
+Cost: 750 gp
+
+============================================================
+HEAVY ARMOR
+
+Ring Mail
+AC: 14
+Strength: -
+Stealth: Disadvantage
+Weight: 40 lb.
+Cost: 30 gp
+
+Chain Mail
+AC: 16
+Strength: 13
+Stealth: Disadvantage
+Weight: 55 lb.
+Cost: 75 gp
+
+Splint
+AC: 17
+Strength: 15
+Stealth: Disadvantage
+Weight: 60 lb.
+Cost: 200 gp
+
+Plate
+AC: 18
+Strength: 15
+Stealth: Disadvantage
+Weight: 65 lb.
+Cost: 1,500 gp
+
+============================================================
+SHIELD
+
+Shield
+AC Bonus: +2
+Strength: -
+Stealth: -
+Weight: 6 lb.
+Cost: 10 gp
+
+============================================================
+DON / DOFF TIME
+
+Light Armor
+Don: 1 minute
+Doff: 1 minute
+
+Medium Armor
+Don: 5 minutes
+Doff: 1 minute
+
+Heavy Armor
+Don: 10 minutes
+Doff: 5 minutes
+
+Shield
+Don: 1 action
+Doff: 1 action
+
+============================================================
+PROFICIENCY
+
+Armor Proficiency
+Anyone can put on armor or strap on a shield. Only those proficient in its use can wear it effectively. Your class determines which armor types you are proficient with.
+
+If you wear armor without proficiency:
+- You have disadvantage on any ability check involving Strength or Dexterity
+- You have disadvantage on any saving throw involving Strength or Dexterity
+- You have disadvantage on any attack roll involving Strength or Dexterity
+- You cannot cast spells
+
+Strength Requirement
+If an armor lists “Str 13” or “Str 15” in the Strength column, the wearer’s speed is reduced by 10 feet unless their Strength score meets or exceeds the listed requirement.

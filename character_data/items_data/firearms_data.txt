@@ -1,0 +1,127 @@
+FIREARMS
+
+Firearms can be introduced into campaigns that feature Renaissance themes, modern elements, or futuristic settings. Modern and futuristic firearms are considered priceless.
+
+============================================================
+RENAISSANCE ITEMS
+
+-------------------------
+Martial Ranged Weapons
+
+Pistol
+Cost: 250 gp
+Damage: 1d10 piercing
+Weight: 3 lb.
+Properties: Ammunition (30/90), Loading
+
+Musket
+Cost: 500 gp
+Damage: 1d12 piercing
+Weight: 10 lb.
+Properties: Ammunition (40/120), Loading, Two-handed
+
+-------------------------
+Ammunition
+
+Bullets (10)
+Cost: 3 gp
+Weight: 2 lb.
+
+============================================================
+MODERN ITEMS
+
+-------------------------
+Martial Ranged Weapons
+
+Pistol, Automatic
+Cost: —
+Damage: 2d6 piercing
+Weight: 3 lb.
+Properties: Ammunition (50/150), Reload (15 shots)
+
+Revolver
+Cost: —
+Damage: 2d8 piercing
+Weight: 3 lb.
+Properties: Ammunition (40/120), Reload (6 shots)
+
+Rifle, Hunting
+Cost: —
+Damage: 2d10 piercing
+Weight: 8 lb.
+Properties: Ammunition (80/240), Reload (5 shots), Two-handed
+
+Rifle, Automatic
+Cost: —
+Damage: 2d8 piercing
+Weight: 8 lb.
+Properties: Ammunition (80/240), Burst Fire, Reload (30 shots), Two-handed
+
+Shotgun
+Cost: —
+Damage: 2d8 piercing
+Weight: 7 lb.
+Properties: Ammunition (30/90), Reload (2 shots), Two-handed
+
+-------------------------
+Ammunition
+
+Bullets (10)
+Cost: —
+Weight: 1 lb.
+
+============================================================
+FUTURISTIC ITEMS
+
+-------------------------
+Martial Ranged Weapons
+
+Laser Pistol
+Cost: —
+Damage: 3d6 radiant
+Weight: 2 lb.
+Properties: Ammunition (40/120), Reload (50 shots)
+
+Antimatter Rifle
+Cost: —
+Damage: 6d8 necrotic
+Weight: 10 lb.
+Properties: Ammunition (120/360), Reload (2 shots), Two-handed
+
+Laser Rifle
+Cost: —
+Damage: 3d8 radiant
+Weight: 7 lb.
+Properties: Ammunition (100/300), Reload (30 shots), Two-handed
+
+-------------------------
+Ammunition
+
+Energy Cell
+Cost: —
+Weight: 5 oz.
+
+============================================================
+PROFICIENCY
+
+Whether a character has proficiency with firearms is determined by the DM.
+
+Most characters in traditional D&D settings are not proficient with firearms. During downtime, characters can train to gain proficiency if they have sufficient ammunition to practice.
+
+============================================================
+FIREARM PROPERTIES
+
+Ammunition
+Firearm ammunition is destroyed upon use.
+Renaissance and modern firearms use bullets.
+Futuristic firearms use energy cells.
+An energy cell contains enough power for all shots the firearm can make.
+
+Burst Fire
+The weapon can make a normal attack or spray a 10-foot cube area within normal range.
+Each creature in the area must succeed on a DC 15 Dexterity saving throw or take normal weapon damage.
+This action uses 10 pieces of ammunition.
+
+Reload
+A limited number of shots can be fired before reloading.
+Reloading requires an action or bonus action, player’s choice.

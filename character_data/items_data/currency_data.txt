@@ -1,0 +1,262 @@
+CURRENCY AND TRADE
+
+Fifty coins of any type weigh 1 pound.
+
+============================================================
+COIN VALUES
+
+Coin Value Conversion Table
+
+                Cp      Sp      Ep      Gp      Pp
+Copper (cp)      1     1/10    1/50    1/100   1/1000
+Silver (sp)     10       1     1/5     1/10    1/100
+Electrum (ep)   50       5       1      1/2     1/20
+Gold (gp)      100      10       2        1     1/10
+Platinum (pp) 1000     100      50       10        1
+
+============================================================
+TRADE GOODS
+
+Most wealth exists in livestock, grain, land, taxation rights, or resource rights.
+
+Guilds and nobility regulate trade.
+Merchants often exchange goods without coin currency.
+
+-------------------------
+Trade Goods Table
+
+1 cp
+1 lb. of wheat
+
+2 cp
+1 lb. of flour
+or
+1 chicken
+
+5 cp
+1 lb. of salt
+
+1 sp
+1 lb. of iron
+or
+1 square yard of canvas
+
+5 sp
+1 lb. of copper
+or
+1 square yard of cotton cloth
+
+1 gp
+1 lb. of ginger
+or
+1 goat
+
+2 gp
+1 lb. of cinnamon or pepper
+or
+1 sheep
+
+3 gp
+1 lb. of cloves
+or
+1 pig
+
+5 gp
+1 lb. of silver
+or
+1 square yard of linen
+
+10 gp
+1 square yard of silk
+or
+1 cow
+
+15 gp
+1 lb. of saffron
+or
+1 ox
+
+50 gp
+1 lb. of gold
+
+500 gp
+1 lb. of platinum
+
+============================================================
+GEMSTONES
+
+Gemstones are lightweight and easier to secure than equivalent coin value.
+
+------------------------------------------------------------
+10 gp Gemstones
+
+Azurite
+Opaque mottled deep blue
+
+Banded Agate
+Translucent striped brown, blue, white, or red
+
+Blue Quartz
+Transparent pale blue
+
+Eye Agate
+Translucent circles of gray, white, brown, blue, or green
+
+Hematite
+Opaque gray-black
+
+Lapis Lazuli
+Opaque light and dark blue with yellow flecks
+
+Malachite
+Opaque striated light and dark green
+
+Moss Agate
+Translucent pink or yellow-white with mossy gray or green markings
+
+Obsidian
+Opaque black
+
+Rhodochrosite
+Opaque light pink
+
+Tiger's Eye
+Translucent brown with golden center
+
+Turquoise
+Opaque light blue-green
+
+------------------------------------------------------------
+50 gp Gemstones
+
+Bloodstone
+Opaque dark gray with red flakes
+
+Carnelian
+Opaque orange to red-brown
+
+Chalcedony
+Opaque white
+
+Chrysoprase
+Translucent green
+
+Citrine
+Transparent pale yellow-brown
+
+Jasper
+Opaque blue, black, or brown
+
+Moonstone
+Translucent white with pale blue glow
+
+Onyx
+Opaque bands of black and white, or pure black and white
+
+Quartz
+Transparent white, smoky gray, or yellow
+
+Sardonyx
+Opaque bands of red and white
+
+Star Rose Quartz
+Translucent rosy stone with white star-shaped center
+
+Zircon
+Transparent pale blue-green
+
+------------------------------------------------------------
+100 gp Gemstones
+
+Amber
+Transparent watery gold to rich gold
+
+Amethyst
+Transparent deep purple
+
+Chrysoberyl
+Transparent yellow-green to pale green
+
+Coral
+Opaque crimson
+
+Garnet
+Transparent red, brown-green, or violet
+
+Jade
+Translucent light green, deep green, or white
+
+Jet
+Opaque deep black
+
+Pearl
+Opaque lustrous white, yellow, or pink
+
+Spinel
+Transparent red, red-brown, or deep green
+
+Tourmaline
+Transparent pale green, blue, brown, or red
+
+------------------------------------------------------------
+500 gp Gemstones
+
+Alexandrite
+Transparent dark green
+
+Aquamarine
+Transparent pale blue-green
+
+Black Pearl
+Opaque pure black
+
+Blue Spinel
+Transparent deep blue
+
+Peridot
+Transparent rich olive green
+
+Topaz
+Transparent golden yellow
+
+------------------------------------------------------------
+1000 gp Gemstones
+
+Black Opal
+Translucent dark green with black mottling and golden flecks
+
+Blue Sapphire
+Transparent blue-white to medium blue
+
+Emerald
+Transparent deep bright green
+
+Fire Opal
+Translucent fiery red
+
+Opal
+Translucent pale blue with green and golden mottling
+
+Star Ruby
+Translucent ruby with white star-shaped center
+
+Star Sapphire
+Translucent blue sapphire with white star-shaped center
+
+Yellow Sapphire
+Transparent fiery yellow or yellow-green
+
+------------------------------------------------------------
+5000 gp Gemstones
+
+Black Sapphire
+Translucent lustrous black with glowing highlights
+
+Diamond
+Transparent blue-white, canary, pink, brown, or blue
+
+Jacinth
+Transparent fiery orange
+
+Ruby
+Transparent clear red to deep crimson

@@ -1,0 +1,114 @@
+EXPLOSIVES
+
+A campaign might include explosives from the Renaissance or the modern world. Modern explosives are considered priceless.
+
+============================================================
+RENAISSANCE ITEMS
+
+Bomb
+Cost: 150 gp
+Weight: 1 lb.
+
+Gunpowder, Keg
+Cost: 250 gp
+Weight: 20 lb.
+
+Gunpowder, Powder Horn
+Cost: 35 gp
+Weight: 2 lb.
+
+============================================================
+MODERN ITEMS
+
+Dynamite (Stick)
+Cost: —
+Weight: 1 lb.
+
+Grenade, Fragmentation
+Cost: —
+Weight: 1 lb.
+
+Grenade, Smoke
+Cost: —
+Weight: 2 lb.
+
+Grenade Launcher
+Cost: —
+Weight: 7 lb.
+
+============================================================
+ITEM DESCRIPTIONS
+
+------------------------------------------------------------
+Bomb
+
+As an action, you can light the bomb and throw it at a point up to 60 feet away.
+
+Each creature within 5 feet of that point must make a DC 12 Dexterity saving throw.
+On a failure: 3d6 fire damage.
+On a success: No damage unless otherwise determined by the DM.
+
+------------------------------------------------------------
+Gunpowder
+
+Gunpowder is used to fire bullets or create bombs.
+It is sold in:
+- Small wooden kegs
+- Water-resistant powder horns
+
+If a full container is set on fire:
+
+Powder Horn Explosion
+Damage: 3d6 fire
+Radius: 10 feet
+Save: DC 12 Dexterity for half damage
+
+Keg Explosion
+Damage: 7d6 fire
+Radius: 10 feet
+Save: DC 12 Dexterity for half damage
+
+If one ounce of gunpowder is ignited:
+- Burns for 1 round
+- Bright light: 30-foot radius
+- Dim light: Additional 30 feet
+
+------------------------------------------------------------
+Dynamite
+
+As an action, you can light a stick of dynamite and throw it up to 60 feet.
+
+Each creature within 5 feet must make a DC 12 Dexterity saving throw.
+On a failure: 3d6 bludgeoning damage.
+On a success: Half damage.
+
+Multiple Sticks
+Each additional stick:
+- +1d6 damage (maximum 10d6 total)
+- +5 feet burst radius (maximum 20 feet radius)
+
+Timed Fuse
+Dynamite can be set to explode in 1 to 6 rounds.
+Roll initiative for the dynamite.
+It explodes on its initiative after the set number of rounds.
+
+------------------------------------------------------------
+Grenades
+
+As an action, you can throw a grenade up to 60 feet.
+With a grenade launcher, range increases to 120 feet.
+
+Fragmentation Grenade
+Radius: 20 feet
+Save: DC 15 Dexterity
+Failure: 5d6 piercing damage
+Success: Half damage
+
+Smoke Grenade
+One round after landing:
+- Creates heavily obscured area
+- 20-foot radius
+
+Wind Effects:
+- Moderate wind (10+ mph): disperses in 4 rounds
+- Strong wind (20+ mph): disperses in 1 round

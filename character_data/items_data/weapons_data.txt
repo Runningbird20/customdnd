@@ -1,0 +1,323 @@
+WEAPONS
+
+Your class grants proficiency in certain weapons. Your weapon choice and your ability to wield it effectively can mean the difference between life and death.
+
+Weapons are divided into:
+- Melee Weapons (used within 5 feet)
+- Ranged Weapons (used at a distance)
+
+============================================================
+SIMPLE WEAPONS
+
+-------------------------
+Simple Melee Weapons
+
+Club
+Cost: 1 sp
+Damage: 1d4 bludgeoning
+Weight: 2 lb.
+Properties: Light
+
+Dagger
+Cost: 2 gp
+Damage: 1d4 piercing
+Weight: 1 lb.
+Properties: Finesse, Light, Thrown (20/60)
+
+Greatclub
+Cost: 2 sp
+Damage: 1d8 bludgeoning
+Weight: 10 lb.
+Properties: Two-handed
+
+Handaxe
+Cost: 5 gp
+Damage: 1d6 slashing
+Weight: 2 lb.
+Properties: Light, Thrown (20/60)
+
+Javelin
+Cost: 5 sp
+Damage: 1d6 piercing
+Weight: 2 lb.
+Properties: Thrown (30/120)
+
+Light Hammer
+Cost: 2 gp
+Damage: 1d4 bludgeoning
+Weight: 2 lb.
+Properties: Light, Thrown (20/60)
+
+Mace
+Cost: 5 gp
+Damage: 1d6 bludgeoning
+Weight: 4 lb.
+Properties: None
+
+Quarterstaff
+Cost: 2 sp
+Damage: 1d6 bludgeoning
+Weight: 4 lb.
+Properties: Versatile (1d8)
+
+Sickle
+Cost: 1 gp
+Damage: 1d4 slashing
+Weight: 2 lb.
+Properties: Light
+
+Spear
+Cost: 1 gp
+Damage: 1d6 piercing
+Weight: 3 lb.
+Properties: Thrown (20/60), Versatile (1d8)
+
+-------------------------
+Simple Ranged Weapons
+
+Crossbow, Light
+Cost: 25 gp
+Damage: 1d8 piercing
+Weight: 5 lb.
+Properties: Ammunition (80/320), Loading, Two-handed
+
+Dart
+Cost: 5 cp
+Damage: 1d4 piercing
+Weight: 0.25 lb.
+Properties: Finesse, Thrown (20/60)
+
+Shortbow
+Cost: 25 gp
+Damage: 1d6 piercing
+Weight: 2 lb.
+Properties: Ammunition (80/320), Two-handed
+
+Sling
+Cost: 1 sp
+Damage: 1d4 bludgeoning
+Weight: —
+Properties: Ammunition (30/120)
+
+============================================================
+MARTIAL WEAPONS
+
+-------------------------
+Martial Melee Weapons
+
+Battleaxe
+Cost: 10 gp
+Damage: 1d8 slashing
+Weight: 4 lb.
+Properties: Versatile (1d10)
+
+Flail
+Cost: 10 gp
+Damage: 1d8 bludgeoning
+Weight: 2 lb.
+Properties: None
+
+Glaive
+Cost: 20 gp
+Damage: 1d10 slashing
+Weight: 6 lb.
+Properties: Heavy, Reach, Two-handed
+
+Greataxe
+Cost: 30 gp
+Damage: 1d12 slashing
+Weight: 7 lb.
+Properties: Heavy, Two-handed
+
+Greatsword
+Cost: 50 gp
+Damage: 2d6 slashing
+Weight: 6 lb.
+Properties: Heavy, Two-handed
+
+Halberd
+Cost: 20 gp
+Damage: 1d10 slashing
+Weight: 6 lb.
+Properties: Heavy, Reach, Two-handed
+
+Lance
+Cost: 10 gp
+Damage: 1d12 piercing
+Weight: 6 lb.
+Properties: Reach, Special
+
+Longsword
+Cost: 15 gp
+Damage: 1d8 slashing
+Weight: 3 lb.
+Properties: Versatile (1d10)
+
+Maul
+Cost: 10 gp
+Damage: 2d6 bludgeoning
+Weight: 10 lb.
+Properties: Heavy, Two-handed
+
+Morningstar
+Cost: 15 gp
+Damage: 1d8 piercing
+Weight: 4 lb.
+Properties: None
+
+Pike
+Cost: 5 gp
+Damage: 1d10 piercing
+Weight: 18 lb.
+Properties: Heavy, Reach, Two-handed
+
+Rapier
+Cost: 25 gp
+Damage: 1d8 piercing
+Weight: 2 lb.
+Properties: Finesse
+
+Scimitar
+Cost: 25 gp
+Damage: 1d6 slashing
+Weight: 3 lb.
+Properties: Finesse, Light
+
+Shortsword
+Cost: 10 gp
+Damage: 1d6 piercing
+Weight: 2 lb.
+Properties: Finesse, Light
+
+Trident
+Cost: 5 gp
+Damage: 1d6 piercing
+Weight: 4 lb.
+Properties: Thrown (20/60), Versatile (1d8)
+
+War Pick
+Cost: 5 gp
+Damage: 1d8 piercing
+Weight: 2 lb.
+Properties: None
+
+Warhammer
+Cost: 15 gp
+Damage: 1d8 bludgeoning
+Weight: 2 lb.
+Properties: Versatile (1d10)
+
+Whip
+Cost: 2 gp
+Damage: 1d4 slashing
+Weight: 3 lb.
+Properties: Finesse, Reach
+
+-------------------------
+Martial Ranged Weapons
+
+Blowgun
+Cost: 10 gp
+Damage: 1 piercing
+Weight: 1 lb.
+Properties: Ammunition (25/100), Loading
+
+Crossbow, Hand
+Cost: 75 gp
+Damage: 1d6 piercing
+Weight: 3 lb.
+Properties: Ammunition (30/120), Light, Loading
+
+Crossbow, Heavy
+Cost: 50 gp
+Damage: 1d10 piercing
+Weight: 18 lb.
+Properties: Ammunition (100/400), Heavy, Loading, Two-handed
+
+Longbow
+Cost: 50 gp
+Damage: 1d8 piercing
+Weight: 2 lb.
+Properties: Ammunition (150/600), Heavy, Two-handed
+
+Net
+Cost: 1 gp
+Damage: —
+Weight: 3 lb.
+Properties: Special, Thrown (5/15)
+
+============================================================
+AMMUNITION
+
+Arrows (20) — 1 gp — 1 lb.
+Blowgun Needles (50) — 1 gp — 1 lb.
+Crossbow Bolts (20) — 1 gp — 1.5 lb.
+Sling Bullets (20) — 4 cp — 1.5 lb.
+
+============================================================
+WEAPON PROPERTIES (SUMMARY)
+
+Ammunition
+Requires ammunition to make ranged attacks. Half recoverable after battle.
+
+Finesse
+Use Strength or Dexterity for attack and damage.
+
+Heavy
+Small or Tiny creatures have disadvantage.
+
+Light
+Ideal for two-weapon fighting.
+
+Loading
+Only one piece of ammunition per action.
+
+Range
+Two numbers: normal range / maximum range. Disadvantage beyond normal range.
+
+Reach
+Adds 5 feet to attack reach.
+
+Special
+Weapon has unique rules.
+
+Thrown
+Can be thrown for ranged attacks.
+
+Two-Handed
+Requires two hands when attacking.
+
+Versatile
+Can be used one-handed or two-handed.
+
+============================================================
+IMPROVISED WEAPONS
+
+Objects used as weapons deal 1d4 damage if not similar to an actual weapon.
+Thrown improvised weapons: 20 ft normal, 60 ft long range.
+
+============================================================
+SILVERED WEAPONS
+
+Cost: 100 gp to silver one weapon or 10 pieces of ammunition.
+
+============================================================
+SPECIAL WEAPONS RULES
+
+Lance
+Disadvantage against targets within 5 feet.
+Requires two hands when not mounted.
+
+Net
+Restrains Large or smaller creatures.
+DC 10 Strength check to escape.
+5 slashing damage (AC 10) destroys net.
+Only one attack per action with a net.
+
+Hoopak
+Can be used as melee or ranged weapon.
+Uses sling bullets when ranged.
+Bonus attack deals 1d4 damage.
+
+Double-Bladed Scimitar
+After attacking, can use bonus action to deal 1d4 slashing damage.
